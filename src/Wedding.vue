@@ -1,6 +1,13 @@
 <template>
   <div class="wedding">
     <Editor/>
+    <audio
+      id="cheerMusic"
+      ref="audio"
+      preload="auto"
+      loop="loop"
+      src="https://img.youpenglai.com/penglai/1.mp3"
+    ></audio>
   </div>
 </template>
 
@@ -12,7 +19,19 @@
     components: {
       Editor
     },
-    name: 'Wedding'
+    name: 'Wedding',
+    async mounted () {
+      this.audioAutoPlay()
+    },
+    methods: {
+      audioAutoPlay() {
+        let audio = this.$refs.audio
+        audio.play();
+        document.addEventListener("WeixinJSBridgeReady", function () {
+          audio.play();
+        }, false);
+      },
+    }
   }
 
 </script>
