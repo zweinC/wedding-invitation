@@ -6,9 +6,9 @@
           <div class="content-inside">
             <img class="content-inside-photo" src="../images/photo.jpg">
             <p>我们结婚啦！</p>
-            <p><b>Jun & undefined</b></p>
-            <p>时间：invalid date value</p>
-            <p>地点：<b>location can not be found</b></p>
+            <p><b>葛春健 & 张雾</b></p>
+            <p>时间：2022.01.04</p>
+            <p>地点：<b>蚌埠市怀远县荆山镇</b></p>
             <div class="content-inside-bless">
               <input
                 placeholder="写下你的祝福" 
