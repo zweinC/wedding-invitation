@@ -6,7 +6,7 @@
       ref="audio"
       preload="auto"
       loop="loop"
-      src="https://img.youpenglai.com/penglai/1.mp3"
+      src="http://music.163.com/song/media/outer/url?id=5331928.mp3"
     ></audio>
   </div>
 </template>
