@@ -1,11 +1,10 @@
 # 程序员的婚礼邀请函
-这是我之前给自己准备的婚礼邀请函，但一直到现在也没用上。最近正好有空，把代码整理了一下开源了，给各位需要的程序员小伙伴。
+fork自：https://github.com/leadream/wedding-invitation-for-programmers
+感谢～～～～
 
 打开邀请函之后，会先模拟编写一段代码，编写完成之后会模拟执行，成功后则打开邀请函。在邀请函内可以填写祝福语并发送，发送成功后关闭邀请函，显示弹幕。
 
-![](./invitation.jpg)
-
-在线体验：https://lab.juuust.com/a/wedding
+在线体验：https://zweinc.github.io/wedding-invitation/dist/index.html
 
 ## 开发
 ### 前提条件
