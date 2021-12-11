@@ -4,11 +4,13 @@
       <div class="invitation-cover">
         <div class="cover-content" :class="{'invitation-up':isOpening}">
           <div class="content-inside">
+            <!-- <img class="content-inside-photo" src="../images/photo2.jpg"> -->
             <img class="content-inside-photo" src="../images/photo.jpg">
-            <p>❤️我们结婚啦💕💖</p>
+            <p>❤️ 我们结婚啦💕💖</p>
             <p><b>葛春健 & 张雾</b></p>
             <p>时间：2022.01.04</p>
             <p>地点：<b>蚌埠市怀远县荆山镇</b></p>
+            <p><b>良辰已定 吉日待访</b></p>
             <div class="content-inside-bless">
               <input
                 placeholder="写下你的祝福" 
